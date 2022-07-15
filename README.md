@@ -6,6 +6,8 @@
 
 ## Issue
 
+[Chromium Issue](https://bugs.chromium.org/p/chromium/issues/detail?id=1344966)
+
 It seems the <canvas> element in Chrome does not support disabling font aliasing.
 
 This setup ensures the following:
@@ -16,4 +18,4 @@ This setup ensures the following:
 
 ## Running
 
-`yarn && yarn dev`
+`npm && npm run dev`
