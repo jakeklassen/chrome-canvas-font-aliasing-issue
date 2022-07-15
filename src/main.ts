@@ -28,6 +28,8 @@ const resizeHandler = onWindowResize({
 // Call the handler once to scale to the current window.
 resizeHandler();
 
+window.addEventListener("resize", resizeHandler);
+
 ctx.fillStyle = "white";
 ctx.font = "10px Visitor";
 ctx.fillText("1234567890", 10, 10);
