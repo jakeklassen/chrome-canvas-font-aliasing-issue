@@ -9,7 +9,7 @@ const GAME_HEIGHT = 216;
 
 const font = new FontFace("Visitor", `url(${visitorFontUrl})`);
 const visitorFont = await font.load();
-// @ts-ignore
+
 document.fonts.add(visitorFont);
 
 const bunny = await loadImage(bunnyAssetUrl);
@@ -32,7 +32,7 @@ window.addEventListener("resize", resizeHandler);
 
 ctx.fillStyle = "white";
 ctx.font = "10px Visitor";
-ctx.fillText("1234567890", 10, 10);
+ctx.fillText("1234567890 Game Over", 10, 10);
 
 ctx.drawImage(
   bunny,
