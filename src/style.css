@@ -14,6 +14,10 @@
 
 canvas {
   image-rendering: pixelated;
+  /* 
+    This seems to be an _old_ solution:border:
+    https://gamedev.stackexchange.com/questions/183179/completely-pixelated-font-in-javascript-canvas
+   */
   font-smooth: never;
   -webkit-font-smoothing: none;
   background: #000000;
