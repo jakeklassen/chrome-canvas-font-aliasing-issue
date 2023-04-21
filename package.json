@@ -8,8 +8,8 @@
   },
   "devDependencies": {
     "@types/css-font-loading-module": "^0.0.8",
-    "@types/node": "^18.15.11",
+    "@types/node": "^18.15.13",
     "typescript": "^5.0.4",
-    "vite": "^4.2.1"
+    "vite": "^4.3.1"
   }
 }
