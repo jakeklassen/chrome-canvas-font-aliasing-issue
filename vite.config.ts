@@ -9,7 +9,7 @@ const config = defineConfig({
     },
   },
   build: {
-    target: "chrome103",
+    target: "chrome118",
   },
 });
 
